@@ -1,0 +1,5 @@
+<div class="card-list">
+    <img [src]="pegarImagemPokemon()"> <br>
+    <label class="label-numero">{{ numero < 100 ? ("000"+numero | slice:-3) : numero }}</label><br>
+    <label class="label-nome">{{ nomePokemon }}</label>
+</div>
